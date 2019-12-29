@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp"/>
+    <stroke android:color="#ffffff" android:width="2dp"/>
+</shape>
+<!--<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="-3dp"
+    android:insetBottom="-3dp"
+    android:insetLeft="-3dp"
+    android:insetRight="1dp"
+    >
+    <shape android:shape="rectangle" >
+        <padding android:top="5dp" android:bottom="5dp"/>
+        <stroke android:color="@color/blue" android:width="1dp"/>
+    </shape>
+</inset>-->

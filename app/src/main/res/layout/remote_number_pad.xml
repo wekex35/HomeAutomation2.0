@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/remote_numbers"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:tag="DIGIT 1"
+                    android:padding="10dp"
+                    android:background="@drawable/remote_button_click"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:onClick="remoteClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <TextView
+                        android:text="1"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/remote_circle" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:tag="DIGIT 2"
+                    android:padding="10dp"
+                    android:background="@drawable/remote_button_click"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:onClick="remoteClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <TextView
+                        android:text="2"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/remote_circle" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:tag="DIGIT 3"
+                    android:padding="10dp"
+                    android:background="@drawable/remote_button_click"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:onClick="remoteClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <TextView
+                        android:text="3"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/remote_circle" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:minWidth="300dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 4"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="4"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 5"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="5"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 6"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="6"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:minWidth="300dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 7"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="7"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 8"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="8"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 9"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="9"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:minWidth="300dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="num_dash"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="--/-"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:tag="DIGIT 0"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:text="0"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/remote_circle" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:id="@+id/close"
+                        android:padding="10dp"
+                        android:background="@drawable/remote_button_click"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:onClick="remoteClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerInParent="true" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

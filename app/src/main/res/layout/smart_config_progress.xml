@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cpb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <com.digiads.akshhomeautomation.views.CircleProgressBar
+
+        android:id="@+id/progressBar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        cpb:backgroundColor="#e7b330"
+        cpb:backgroundWidth="8"
+        cpb:layout_constraintBottom_toBottomOf="parent"
+        cpb:layout_constraintEnd_toEndOf="parent"
+        cpb:layout_constraintHorizontal_bias="0.497"
+        cpb:layout_constraintStart_toStartOf="parent"
+        cpb:layout_constraintTop_toTopOf="parent"
+        cpb:layout_constraintVertical_bias="0.269"
+        cpb:maxValue="100"
+        cpb:prefix=""
+        cpb:progressColor="#e76130"
+        cpb:progressText="Loading..."
+        cpb:progressTextColor="#f9916b"
+        cpb:roundedCorners="true"
+        cpb:suffix="%"
+        cpb:textSize="18sp" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/smart_config_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/smart_congig_progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/connecting_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+
+        app:layout_constraintEnd_toEndOf="@+id/smart_config_progress"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/smart_config_progress"
+        app:layout_constraintTop_toBottomOf="@+id/smart_config_progress" />
+
+    <LinearLayout
+        android:id="@+id/buttonHoldeer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/retry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Retry"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/manual"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="manual " />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

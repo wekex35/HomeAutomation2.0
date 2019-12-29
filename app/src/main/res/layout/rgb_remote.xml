@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="1" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="2" />
+
+        <Button
+            android:text="@string/off"
+            style="@style/rgb_remote_button"
+            android:tag="3" />
+
+        <Button
+            android:text="@string/on"
+            style="@style/rgb_remote_button"
+            android:tag="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:text="Rr"
+            style="@style/rgb_remote_button"
+            android:tag="5" />
+
+        <Button
+            android:text="G"
+            style="@style/rgb_remote_button"
+            android:tag="6" />
+
+        <Button
+            android:text="B"
+            style="@style/rgb_remote_button"
+            android:tag="7" />
+
+        <Button
+
+            android:text="W"
+            style="@style/rgb_remote_button"
+            android:tag="8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+
+           style="@style/rgb_remote_button"
+            android:tag="9" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="10" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="11" />
+
+        <Button
+            android:textSize="10sp"
+            android:text="FLASH"
+            style="@style/rgb_remote_button"
+            android:tag="12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="13" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="14" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="15" />
+
+        <Button
+            android:textSize="10sp"
+            android:text="STROBE"
+            style="@style/rgb_remote_button"
+            android:tag="16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="17" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="18" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="19" />
+
+        <Button
+            android:textSize="10sp"
+            android:text="FADE"
+            style="@style/rgb_remote_button"
+            android:tag="20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="21" />
+
+        <Button
+            style="@style/rgb_remote_button"
+            android:tag="22" />
+
+        <Button
+
+            style="@style/rgb_remote_button"
+            android:tag="23" />
+
+        <Button
+            android:textSize="8sp"
+            android:text="SMOOTH"
+            style="@style/rgb_remote_button"
+            android:tag="24" />
+    </LinearLayout>
+
+
+</LinearLayout>
