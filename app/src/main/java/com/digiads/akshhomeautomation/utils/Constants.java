@@ -13,4 +13,5 @@ public class Constants {
     public static final String  clientId   = UUID.randomUUID().toString();
     public static String mytopic = "outTopic";
     public static String publisTopic = "inTopic";
+    public static int[] ESP32PINS = {1,2,3,4,5,6,7,8,15,16,17,19,20,21,12};
 }
